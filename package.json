@@ -15,12 +15,18 @@
   "author": "Aliaksei Shytkin <shitkin@targetprocess.com>",
   "licenses": [
     {
-        "type": "MIT",
-        "url": "http://www.opensource.org/licenses/mit-license.php"
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
     }
   ],
+  "peerDependencies": {
+    "webpack": "^1.0.0"
+  },
   "bugs": {
     "url": "https://github.com/TargetProcess/targetprocess-mashup-webpack-plugin/issues"
   },
-  "homepage": "https://github.com/TargetProcess/targetprocess-mashup-webpack-plugin#readme"
+  "homepage": "https://github.com/TargetProcess/targetprocess-mashup-webpack-plugin#readme",
+  "dependencies": {
+    "webpack-core": "^0.6.5"
+  }
 }
