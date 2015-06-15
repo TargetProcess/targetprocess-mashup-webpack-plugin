@@ -1,0 +1,26 @@
+{
+  "name": "targetprocess-mashup-webpack-plugin",
+  "version": "0.1.0",
+  "description": "Webpack plugin to help writing Targetprocess mashups.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TargetProcess/targetprocess-mashup-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "targetprocess",
+    "mashup"
+  ],
+  "author": "Aliaksei Shytkin <shitkin@targetprocess.com>",
+  "licenses": [
+    {
+        "type": "MIT",
+        "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/TargetProcess/targetprocess-mashup-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/TargetProcess/targetprocess-mashup-webpack-plugin#readme"
+}
