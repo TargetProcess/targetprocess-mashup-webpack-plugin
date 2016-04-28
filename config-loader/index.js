@@ -7,9 +7,16 @@ module.exports = function(content) {
     }
 
     var query = loaderUtils.parseQuery(this.query);
+    var output;
 
-    var json = JSON.parse(content);
-    var output = JSON.stringify(json, null, '    ');
+    if (query.parse === false) output = content;
+    else {
+
+        var json = JSON.parse(content);
+
+        output = JSON.stringify(json, null, '    ');
+
+    }
 
     var outputFile = query.outputFile || './mashup.config.js';
 
